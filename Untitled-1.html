@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">TREND CHECK</h1>
+<p id="description">Please fill out the given details as per your views/experience @just.shoosh.it<p/>
+<form id="survey-form">
+  <fieldset>
+  <label id="name-label">TAG we should know you by: <input type="text" id="name" placeholder="Sambhav XYZ" required></label>
+  <label id="email-label">E-mail to link up: <input type="email" id="email" placeholder="sambhavsxyz@gmail.com" required ></label>
+  <label id="number-label">Hit us with your Contact Details: <input type="number" id="number" min="0" max="10000000000" placeholder="1111111111" required></label>
+  </fieldset>
+  <fieldset>
+  <label>How often are you copping new kicks?
+  <select id="dropdown" name="return-customer">
+    <option value="">(select one)</option>
+    <option value="1">Once a month</option>
+    <option value="2">Every 2-3 months</option>
+<option value="3">Every 6 months</option>
+<option value="4">Once a year or less</option>
+</select>
+</label>
+</fieldset>
+<fieldset>
+<label id="rating1">Spill the tea! How are we doing on our customer service vibes?</label>
+<label id="rating"><input type="radio" name="rating" id="v-dissatisfied" value="v-dissatisfied" checked>Very dissatisfied</label>
+<label id="rating"><input type="radio" name="rating" id="dissatisfied" value="dissatisfied" checked>Dissatisfied</label>
+<label id="rating"><input type="radio" name="rating" id="neutral" value="neutral" checked>Neutral</label>
+<label id="rating"><input type="radio" name="rating" id="satisfied" value="satisfied" checked>Satisfied</label>
+<label id="rating"><input type="radio" name="rating" id="v-satisfied" value="v-satisfied" checked>Very Satisfied</label>
+</fieldset>
+<fieldset>
+  <label id="factor1" >What factors got you hyped to purchase from us?</label>
+  <label id="factor"><input type="checkbox" value="factors">Quality of the product</label>
+  <label id="factor"><input type="checkbox" value="factors">Price/Discounts</label>
+  <label id="factor"><input type="checkbox" value="factors">Brand Reputation</label>
+  <label id="factor"><input type="checkbox" value="factors">Customer Service</label>
+  <label id="factor"><input type="checkbox" value="factors">Fast Shipping</label>
+  </fieldset>
+  <fieldset>
+    <label id="feedback1">What's one thing we could do to level up your vibe with us?
+    <textarea id="feedback" name="feedback" rows="3" cols="35" placeholder="Just keep getting us the best of the shoes..."></textarea></label>
+    </fieldset>
+    <input type="submit" id="submit" value="Submit" />
+    </form>
+    </body>
+    </html>
